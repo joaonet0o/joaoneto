@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(226, 226, 226);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; 
+}
+#tudo{
+    font-size: 20PX;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#cabecalho{
+    height: 300px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    font-size: 40PX;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    padding: 0px;
+    background-color: red;
+    margin: 0px
+}
+
+--#{$prefix}nav-tabs-border-width: #{$nav-tabs-border-width};
+--#{$prefix}nav-tabs-border-color: #{$nav-tabs-border-color};
+--#{$prefix}nav-tabs-border-radius: #{$nav-tabs-border-radius};
+--#{$prefix}nav-tabs-link-hover-border-color; #{$nav-tabs-link-hover-border-color};
+--#{$prefix}nav-tabs-link-active-color: #{$nav-tabs-link-active-color};
+--#{$prefix}nav-tabs-link-active-bg: #{$nav-tabs-link-active-bg};
+--#{$prefix}nav-tabs-link-active-border-color: #{$nav-tabs-link-active-border-color};
+
+#conteudo{
+    min-height: 500px;
+   
+padding-right: 50px;
+padding-left: 50px;
+color: rgb(255, 255, 255);
+font: 190px;
+}
+
+
+
+#conteudo p{
+    margin: 20px;
+}
+#rodape{
+    
+    height: 30px;
+    text-align: center;
+    color: red;
+    align-items: center;
+}
+a:visited {
+        color:deeppink;
+}
+a:link {
+        color: red;
+}
+a:hover {
+        color: hotpink;
+}
+a:active {
+        color: blue;
+  }
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+#mod{
+    align-items: center;
+}
